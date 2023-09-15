@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function index() {
+const  = () => {
   return (
     <div>
-      tailwind
+      
     </div>
   )
 }
+
+export default Navbar
