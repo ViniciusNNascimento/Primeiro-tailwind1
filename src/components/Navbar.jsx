@@ -26,7 +26,7 @@ export function NavbarDefault() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Paginas
+          Páginas
         </a>
       </Typography>
       <Typography
@@ -36,7 +36,7 @@ export function NavbarDefault() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Account
+          Contas
         </a>
       </Typography>
       <Typography
@@ -46,7 +46,7 @@ export function NavbarDefault() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Blocks
+          Blocos
         </a>
       </Typography>
       <Typography
@@ -56,7 +56,7 @@ export function NavbarDefault() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Docs
+          Documentos
         </a>
       </Typography>
     </ul>
@@ -74,7 +74,7 @@ export function NavbarDefault() {
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-          <span>Buy Now</span>
+          <span>Compre Agora</span>
         </Button>
         <IconButton
           variant="text"
