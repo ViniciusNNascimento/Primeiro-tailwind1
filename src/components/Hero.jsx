@@ -1,23 +1,36 @@
-import { Carousel } from "@material-tailwind/react";
- 
-export function CarouselDefault() {
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import React from "react";
+import SlImg1 from "../assets/image-1.jpg"
+import SlImg2 from "../assets/image-2.jpg"
+import SlImg3 from "../assets/image-3.jpg"
+
+import MainSlider from "./MainSlider";
+
+const Main = () => {
   return (
-    <Carousel className="rounded-xl">
-      <img
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-        alt="image 1"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-        alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-        alt="image 3"
-        className="h-full w-full object-cover"
-      />
-    </Carousel>
+    <div id="/" className="carroussel">
+      <div className="carroussel-div">
+        <div className="">
+          <Carousel
+            autoPlay={true}
+            showArrows={true}
+            infiniteLoop={true}
+            interval={10000}
+            stopOnHover={false}
+            showThumbs={false}
+            showStatus={false}
+            showIndicators={false}
+            swipeable={false}
+          >
+            <MainSlider sliderImg={SlImg1} />
+            <MainSlider sliderImg={SlImg2} />
+            <MainSlider sliderImg={SlImg3} />
+          </Carousel>
+        </div>
+      </div>
+    </div>
   );
-}
+};
+
+export default Main;
