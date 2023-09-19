@@ -41,3 +41,14 @@
     transform: rotate(360deg);
   }
 }
+
+.carroussel {
+  padding: 0.5em;
+  width: 100%;
+}
+
+.carroussel-img {
+  height: 80vh;
+  width: 20vh;
+  border-radius:5px;
+}

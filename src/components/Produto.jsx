@@ -40,7 +40,7 @@ import {
             color="white"
             className="font-normal uppercase"
           >
-            standard
+            Padrão
           </Typography>
           <Typography
             variant="h1"
@@ -101,3 +101,5 @@ import {
       </Card>
     );
   }
+
+
