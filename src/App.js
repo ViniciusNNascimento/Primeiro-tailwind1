@@ -3,6 +3,7 @@ import "./App.css";
 import { NavbarDefault } from "./components/Navbar";
 import Hero from "./components/Hero";
 import { PricingCard } from "./components/Produto";
+import { FooterWithLogo } from "./components/Footer";
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
       <NavbarDefault />
       <Hero />
       <PricingCard />
-
+      <FooterWithLogo />
     </div>
   );
 }
+
 
 export default App;
