@@ -25,8 +25,8 @@ export function NavbarDefault() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Páginas
+        <a href="/" className="flex items-center">
+          Home
         </a>
       </Typography>
       <Typography
@@ -35,8 +35,8 @@ export function NavbarDefault() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Contas
+        <a href="/#produtos" className="flex items-center">
+          Produtos
         </a>
       </Typography>
       <Typography
@@ -45,8 +45,8 @@ export function NavbarDefault() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Blocos
+        <a href="/#footer" className="flex items-center">
+          Footer
         </a>
       </Typography>
       <Typography
@@ -55,9 +55,7 @@ export function NavbarDefault() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Documentos
-        </a>
+        
       </Typography>
     </ul>
   );
