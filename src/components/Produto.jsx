@@ -40,7 +40,7 @@ export function PricingCard() {
           color="white"
           className="font-normal uppercase"
         >
-          standard
+          Padrão
         </Typography>
         <Typography
           variant="h1"
@@ -48,7 +48,7 @@ export function PricingCard() {
           className="mt-6 flex justify-center gap-1 text-7xl font-normal"
         >
           <span className="mt-2 text-4xl">$</span>29{" "}
-          <span className="self-end text-4xl">/mo</span>
+          <span className="self-end text-4xl">/mês</span>
         </Typography>
       </CardHeader>
       <CardBody className="p-0">
@@ -57,32 +57,32 @@ export function PricingCard() {
             <span className="rounded-full border border-white/20 bg-white/20 p-1">
               <CheckIcon />
             </span>
-            <Typography className="font-normal">5 team members</Typography>
+            <Typography className="font-normal">5 Membros da equipe</Typography>
           </li>
           <li className="flex items-center gap-4">
             <span className="rounded-full border border-white/20 bg-white/20 p-1">
               <CheckIcon />
             </span>
-            <Typography className="font-normal">200+ components</Typography>
+            <Typography className="font-normal">Mais de 200 componentes</Typography>
           </li>
           <li className="flex items-center gap-4">
             <span className="rounded-full border border-white/20 bg-white/20 p-1">
               <CheckIcon />
             </span>
-            <Typography className="font-normal">40+ built-in pages</Typography>
+            <Typography className="font-normal">Mais de 40 páginas integradas</Typography>
           </li>
           <li className="flex items-center gap-4">
             <span className="rounded-full border border-white/20 bg-white/20 p-1">
               <CheckIcon />
             </span>
-            <Typography className="font-normal">1 year free updates</Typography>
+            <Typography className="font-normal">1 ano de atualizações gratuitas </Typography>
           </li>
           <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+            <span className="rounded-full border border-white/20 bg-red/20 p-1">
               <CheckIcon />
             </span>
             <Typography className="font-normal">
-              Life time technical support
+              Suporte técnico vitalício
             </Typography>
           </li>
         </ul>
@@ -95,7 +95,7 @@ export function PricingCard() {
           ripple={false}
           fullWidth={true}
         >
-          Buy Now
+          COMPRAR AGORA
         </Button>
       </CardFooter>
     </Card>
