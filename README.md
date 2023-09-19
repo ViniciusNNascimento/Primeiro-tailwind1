@@ -6,8 +6,6 @@ Este projeto é um site, de avanços tecnologicos, com produtos á venda, sendo 
 
 ## Autores
 
-- [@octokatherine](https://www.github.com/octokatherine)
-
 - [@ViniciusNNascimento](https://github.com/ViniciusNNascimento)
 
 - [@wmsousa01](https://github.com/wmsousa01)
