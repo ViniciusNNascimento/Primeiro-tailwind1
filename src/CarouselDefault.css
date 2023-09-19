@@ -1,0 +1,8 @@
+.carousel-slide {
+    opacity: 0; /* Comece com opacidade 0 para ocultar as imagens */
+    transition: opacity 0.5s ease-in-out; /* Adicione uma transição de 0.5 segundos */
+  }
+  .carousel-slide.active {
+    opacity: 1; /* Quando o slide estiver ativo, defina a opacidade como 1 para mostrar a imagem */
+  }
+  
