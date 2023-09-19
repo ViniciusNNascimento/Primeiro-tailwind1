@@ -118,7 +118,7 @@ export function NavbarDefault() {
         <div className="container mx-auto">
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Compre Agora</span>
+            <span>Comprar Agora</span>
           </Button>
         </div>
       </MobileNav>

@@ -6,98 +6,115 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
- 
-function CheckIcon() {
+import imgcard1 from "../assets/img-cards/img-card-1.jpg";
+import imgcard2 from "../assets/img-cards/img-card-2.jpg";
+import imgcard3 from "../assets/img-cards/img-card-3.jpg";
+import imgcard4 from "../assets/img-cards/img-card-4.jpg";
+import imgcard5 from "../assets/img-cards/img-card-5.jpg";
+
+
+export function CardDefault() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={2}
-      stroke="currentColor"
-      className="h-3 w-3"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M4.5 12.75l6 6 9-13.5"
-      />
-    </svg>
-  );
-}
- 
-export function PricingCard() {
-  return (
-    <Card color="gray" variant="gradient" className="w-full max-w-[20rem] p-8">
-      <CardHeader
-        floated={false}
-        shadow={false}
-        color="transparent"
-        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
-      >
-        <Typography
-          variant="small"
-          color="white"
-          className="font-normal uppercase"
-        >
-          Padrão
-        </Typography>
-        <Typography
-          variant="h1"
-          color="white"
-          className="mt-6 flex justify-center gap-1 text-7xl font-normal"
-        >
-          <span className="mt-2 text-4xl">$</span>29{" "}
-          <span className="self-end text-4xl">/mês</span>
-        </Typography>
-      </CardHeader>
-      <CardBody className="p-0">
-        <ul className="flex flex-col gap-4">
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal">5 Membros da equipe</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal">Mais de 200 componentes</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal">Mais de 40 páginas integradas</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal">1 ano de atualizações gratuitas </Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-red/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal">
-              Suporte técnico vitalício
-            </Typography>
-          </li>
-        </ul>
-      </CardBody>
-      <CardFooter className="mt-12 p-0">
-        <Button
-          size="lg"
-          color="white"
-          className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
-          ripple={false}
-          fullWidth={true}
-        >
-          COMPRAR AGORA
-        </Button>
-      </CardFooter>
-    </Card>
+    <div className="flex justify-center flex-wrap">
+      <Card className="mt-6 w-96 p-2">
+        <CardHeader color="blue-gray" className="relative h-56">
+          <img style={{ width: 400, height: 200 }} src={imgcard1} alt="React Logo" />
+            
+            
+          
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h5" color="blue-gray" className="mb-2">
+            UI/UX Review Check
+          </Typography>
+          <Typography>
+            The place is close to Barceloneta Beach and bus stop just 2 min by
+            walk and near to &quot;Naviglio&quot; where you can enjoy the main
+            night life in Barcelona.
+          </Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <Button>Read More</Button>
+        </CardFooter>
+      </Card>
+      <Card className="mt-6 w-96 p-2">
+        <CardHeader color="blue-gray" className="relative h-56">
+        <img style={{ width: 400, height: 200 }} src={imgcard2} alt="React Logo" />
+            
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h5" color="blue-gray" className="mb-2">
+            UI/UX Review Check
+          </Typography>
+          <Typography>
+            The place is close to Barceloneta Beach and bus stop just 2 min by
+            walk and near to &quot;Naviglio&quot; where you can enjoy the main
+            night life in Barcelona.
+          </Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <Button>Read More</Button>
+        </CardFooter>
+      </Card>
+      <Card className="mt-6 w-96 p-2">
+        <CardHeader color="blue-gray" className="relative h-56">
+        <img style={{ width: 400, height: 200 }} src={imgcard3} alt="React Logo" />
+            
+            
+          
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h5" color="blue-gray" className="mb-2">
+            UI/UX Review Check
+          </Typography>
+          <Typography>
+            The place is close to Barceloneta Beach and bus stop just 2 min by
+            walk and near to &quot;Naviglio&quot; where you can enjoy the main
+            night life in Barcelona.
+          </Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <Button>Read More</Button>
+        </CardFooter>
+      </Card>
+      <Card className="mt-6 w-96 p-2">
+        <CardHeader color="blue-gray" className="relative h-56">
+        <img style={{ width: 400, height: 200 }} src={imgcard4} alt="React Logo" />
+            
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h5" color="blue-gray" className="mb-2">
+            UI/UX Review Check
+          </Typography>
+          <Typography>
+            The place is close to Barceloneta Beach and bus stop just 2 min by
+            walk and near to &quot;Naviglio&quot; where you can enjoy the main
+            night life in Barcelona.
+          </Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <Button>Read More</Button>
+        </CardFooter>
+      </Card>
+      <Card className="mt-6 w-96 p-2">
+        <CardHeader color="blue-gray" className="relative h-56">
+        <img style={{ width: 400, height: 200 }} src={imgcard5} alt="React Logo" />
+           
+        </CardHeader>
+        <CardBody>
+          <Typography variant="h5" color="blue-gray" className="mb-2">
+            UI/UX Review Check
+          </Typography>
+          <Typography>
+            The place is close to Barceloneta Beach and bus stop just 2 min by
+            walk and near to &quot;Naviglio&quot; where you can enjoy the main
+            night life in Barcelona.
+          </Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <Button>Read More</Button>
+        </CardFooter>
+      </Card>
+    </div>
   );
 }
